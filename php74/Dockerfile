@@ -4,6 +4,8 @@
 
 FROM ubuntu:bionic
 
+LABEL maintainer 'Edson Santos <edson.santos@gmail.com>'
+
 # Fixes some weird terminal issues such as broken clear / CTRL+L
 ENV TERM=linux
 
